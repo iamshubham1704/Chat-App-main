@@ -1,0 +1,97 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .item {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+
+        form {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            input {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #dddddd;
+                background-color: rgba(17, 25, 40, 0.6);
+            }
+
+            button{
+                background-color: rgb(17, 32, 72);
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.donthaveaccount {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -60vh;
+
+    input {
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #dddddd;
+        background-color: rgba(17, 25, 40, 0.6);
+        color: white;
+    }
+
+    label{
+        display: flex;
+        flex: 1;
+        padding: 10px;
+    }
+
+    img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button{
+        background-color: rgb(17, 32, 72);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+}
+
+.createaccount{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30vh;
+}
+
+.separator{
+    width: 1px;
+    height: 80%;
+    background-color: #dddddd;
+    margin: 20px;
+}
